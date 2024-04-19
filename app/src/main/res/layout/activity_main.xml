@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E0342"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="406dp"
+        android:layout_height="92dp"
+        android:background="#0E46A3"
+        android:text="SPEEDAPP"
+        android:textAlignment="center"
+        android:textColor="#E1F7F5"
+        android:textSize="50dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="user name"
+        android:textColor="#9AC8CD"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="160dp"
+        android:layout_height="62dp"
+        android:text="log in"
+        android:textSize="25dp"
+        android:backgroundTint="#0E46A3"
+        android:textColor="#E1F7F5"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="451dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="160dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#0E46A3"
+        android:text="Register"
+        android:textColor="#E1F7F5"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="password"
+        android:textColor="#E1F7F5"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="343dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
