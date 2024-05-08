@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">speedlimit</string>
+    <string name="speedapp">SPEEDAPP</string>
+    <string name="limit_speed">Limit Speed</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="counting_period">Counting Period</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="enter_your_prefered_counting_period">Enter your prefered counting period</string>
+    <string name="enter_your_limit_speed">Enter your limit speed</string>
+    <string name="click_to_start">Click to start</string>
+    <string name="speed_app">SPEED APP</string>
 </resources>

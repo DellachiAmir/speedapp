@@ -8,60 +8,85 @@
     android:background="#1E0342"
     tools:context=".MainActivity">
 
+
     <TextView
         android:id="@+id/textView"
-        android:layout_width="406dp"
-        android:layout_height="92dp"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="72dp"
         android:background="#0E46A3"
-        android:text="SPEEDAPP"
+        android:elegantTextHeight="true"
+        android:text="Register"
         android:textAlignment="center"
         android:textColor="#E1F7F5"
-        android:textSize="50dp"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="46dp" />
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/vitesse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/enter_your_limit_speed"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="#9AC8CD"
+        android:textColorHint="#2979FF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor" />
 
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/editTextPhone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:autofillHints=""
         android:ems="10"
-        android:inputType="text"
-        android:text="user name"
+        android:hint="@string/enter_your_phone_number"
+        android:inputType="phone"
+        android:minHeight="48dp"
         android:textColor="#9AC8CD"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="280dp" />
+        android:textColorHint="#2979FF"
+        app:layout_constraintStart_toStartOf="@+id/vitesse"
+        app:layout_constraintTop_toBottomOf="@+id/vitesse"
+        tools:ignore="DuplicateIds,LabelFor" />
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/enter_your_prefered_counting_period"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColor="#9AC8CD"
+        android:textColorHint="#2979FF"
+        app:layout_constraintStart_toStartOf="@+id/editTextPhone"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone"
+        tools:ignore="LabelFor" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="160dp"
-        android:layout_height="62dp"
-        android:text="log in"
-        android:textSize="25dp"
-        android:backgroundTint="#0E46A3"
-        android:textColor="#E1F7F5"
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="451dp" />
+        android:layout_width="115dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#FF228EE4"
+        android:text="@string/submit"
+        android:textColor="#212121"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="160dp"
-        android:layout_height="62dp"
-        android:backgroundTint="#0E46A3"
-        android:text="Register"
-        android:textColor="#E1F7F5"
-        android:textSize="25dp"
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="528dp" />
 
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword"
-        android:text="password"
-        android:textColor="#E1F7F5"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="343dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
